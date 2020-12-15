@@ -1,12 +1,3 @@
 module.exports = {
-  presets: [
-    [
-      "@vue/cli-plugin-babel/preset",
-      {
-        jsx: {
-          compositionAPI: true,
-        },
-      },
-    ],
-  ],
+  presets: ["vca-jsx", "@vue/cli-plugin-babel/preset"],
 };
